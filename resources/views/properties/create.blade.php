@@ -24,7 +24,7 @@
             <div class="form-group">
                 @csrf
                 <label for="date_listed">Date Listed:</label>
-                <input type="text" class="form-control" name="date_listed"/>
+                <input type="date" class="form-control" name="date_listed"/>
             </div>
             <div class="form-group">
                 <label for="property_type">Property Type:</label>

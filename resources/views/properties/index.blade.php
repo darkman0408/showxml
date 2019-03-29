@@ -8,7 +8,7 @@
             {{ $property->id }}
         </property-id>
         <date-listed>
-            {{$property->date_listed}}
+            {{ \Carbon\Carbon::parse($property->date_listed)->format('d.m.Y') }}
         </date-listed>
         <property-type>
             {{ $property->description }}
